@@ -15,10 +15,10 @@ client.on('ready', () => {
     console.log(`in ${client.guilds.size} servers `)
     console.log(`[Codes] ${client.users.size}`)
     client.user.setStatus("dnd")
- client.user.setGame(`Tplay`,`https://www.twitch.tv/skwadraa`);
+ client.user.setGame(`Mplay`,`https://www.twitch.tv/skwadraa`);
 });
  
-const prefix = "T"
+const prefix = "M"
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
     if (!msg.content.startsWith(prefix)) return undefined;
